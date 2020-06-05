@@ -11,7 +11,7 @@ namespace MaiHongQuang_lab456.Controllers
 {
     public class CoursesController : Controller
     {
-        private readonly ApplicationDbContext  _dbContext;
+        private readonly ApplicationDbContext  _dbContext; 
         public CoursesController()
         {
             _dbContext = new ApplicationDbContext();
