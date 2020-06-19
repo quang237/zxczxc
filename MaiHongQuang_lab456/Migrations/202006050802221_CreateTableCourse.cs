@@ -19,6 +19,7 @@ namespace MaiHongQuang_lab456.Migrations
             CreateTable(
                 "dbo.Courses",
                 c => new
+
                     {
                         Id = c.Int(nullable: false, identity: true),
                         LecturerId = c.String(nullable: false, maxLength: 128),
